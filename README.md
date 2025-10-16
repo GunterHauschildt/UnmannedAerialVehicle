@@ -1,8 +1,11 @@
 # UAV Guidance using Deep Lucas Kanade homography
+
+https://github.com/user-attachments/assets/537bf125-0441-441f-b2c9-c5476f0b7925
+
 Yiming Zhao, Xinming Huang and Ziming Zhang did all the real work in
 "Deep Lucas-Kanade Homography for Multimodal Image Alignment"
 
-I used their code and their pretrained "GoggleEarth" model inside a PID / Kalman filter control loop
+I used their code and their pretrained model inside a PID / Kalman filter control loop
 to see if I could track a simulated UAV across Ottawa.
 
 It works, and everything you need should all be in this repo.
@@ -17,3 +20,13 @@ The simulated ground speed is very fast. We fly from Westboro to south Bronson i
 (And the mp4 even faster!)
 
 I'm not sure what to do next but there's lots of work to do before, say, putting this on a drone.
+
+The original work:
+https://github.com/placeforyiming/CVPR21-Deep-Lucas-Kanade-Homography
+@inproceedings{zhao2021deep,
+  title={Deep Lucas-Kanade Homography for Multimodal Image Alignment},
+  author={Zhao, Yiming and Huang, Xinming and Zhang, Ziming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={15950--15959},
+  year={2021}
+}
