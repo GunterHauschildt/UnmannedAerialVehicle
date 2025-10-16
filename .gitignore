@@ -5,7 +5,7 @@ __pycache__/
 
 # pycharm etc
 .idea/
-.qodo
+.qodo/
 
 # data
 *.mp4
