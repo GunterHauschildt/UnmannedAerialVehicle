@@ -7,6 +7,8 @@ __pycache__/
 .idea/
 .qodo
 
+# data
+*.mp4
 
 # Distribution / packaging
 .Python
